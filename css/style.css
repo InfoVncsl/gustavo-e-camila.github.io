@@ -27,7 +27,7 @@ body{
     justify-content: space-around;
     align-items: center;
     width: 400px;
-    height: 90vh;
+    height: 85vh;
     background: linear-gradient(#59595930, #00000030),url(../img/back.jpg);
     background-repeat: no-repeat;
     background-size: cover; 
