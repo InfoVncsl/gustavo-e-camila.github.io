@@ -35,6 +35,10 @@ body{
     backdrop-filter: blur( 10.5px );
     border-radius: 10px;
 }
+h3{
+    font-family: titulo;
+    font-weight: bold;
+}
 .logo{
     font-family: titulo;
     height: 25px;
