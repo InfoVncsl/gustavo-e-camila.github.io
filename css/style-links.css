@@ -12,10 +12,10 @@ body{
     padding: 0;
     background-color: #e4e4e4f1;
 }
-h1.logoLinks{
+h1{
     font-family: titulo;
 }
-h2.titleLinks{
+h2{
     font-family: 'Josefin Sans', 'sans-serif';
     font-weight: 300;
 }
@@ -27,20 +27,54 @@ h2.titleLinks{
     display: flex;
     justify-content: center;
 }
+.boxTitle{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.titleLinks{
+    font-family: 'Josefin Sans', 'sans-serif';
+    font-weight: 400;
+}
+.logoLinks{
+    font-family: titulo;
+    font-size: 3em;
+}
 .box{
     display: flex;
     padding: 10px;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content:center;
     align-items: center;
     width: 400px;
     height: 700px;
-    background: linear-gradient(#59595930, #00000030),url(../img/back.jpg);
+    background: url(../img/back2.png);
     background-repeat: no-repeat;
     background-size: cover; 
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.337);
-    backdrop-filter: blur( 10.5px );
     border-radius: 10px;
+}
+.boxLinks{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.boxLinks a {
+    border: 1px solid #9f7656;
+    padding: 15px 30px;
+    border-radius: 25px;
+    margin: 5px 0px;
+    background-color: #f3e9d900;
+    color:#9f7656;
+    text-decoration: none;
+    outline: none;
+    font-family: 'Josefin Sans', 'sans-serif';
+    font-weight: 500;
+}
+.boxLinks a:active {
+    background-color: #9f7656;
+    color: #fff;
 }
 h3{
     font-family: titulo;
