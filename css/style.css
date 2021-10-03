@@ -119,8 +119,8 @@ h3 {
 .img--box {
     width: 220px;
     height: 250px;
-    border-radius: 2px;
-    background: linear-gradient(#c7b299b2, #c7b299b2), url(../img/textura2.png);
+    border-radius: 5px;
+    background: linear-gradient(#c7b299, #c7b299);
     padding: 10px;
     -webkit-animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
     animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
